@@ -3,12 +3,12 @@ import { Smartphone, Monitor, Gamepad2, ArrowDown } from 'lucide-react'
 const platforms = [
   {
     icon: Smartphone, title: 'Android',
-    desc: 'APK download — 64MB',
+    desc: 'APK download — 115MB',
     color: '#00fbfb', bg: 'bg-neon-cyan',
   },
   {
     icon: Monitor, title: 'Windows',
-    desc: 'Installer — 128MB',
+    desc: 'Installer — 85MB',
     color: '#fe00fe', bg: 'bg-neon-pink',
   },
   {
@@ -43,9 +43,9 @@ export default function Download() {
               key={i}
               href={
                 i === 0
-                  ? "https://github.com/akhilboss118-an/3d-runner-game/releases/download/v1.0.0/app-release.apk"
+                  ? "https://github.com/akhilboss118-an/3d-runner-game/releases/download/v1.1.0/app-release.apk"
                   : i === 1
-                  ? "https://github.com/akhilboss118-an/3d-runner-game/releases/tag/v1.0.0"
+                  ? "https://github.com/akhilboss118-an/3d-runner-game/releases/download/v1.1.0/Zombie%20Escape%201.0.0.exe"
                   : "https://3d-runner-opal.vercel.app/"
               }
               target="_blank"
