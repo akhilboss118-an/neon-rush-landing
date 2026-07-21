@@ -45,7 +45,7 @@ export default function Download() {
                 i === 0
                   ? "https://github.com/akhilboss118-an/3d-runner-game/releases/download/v1.1.0/app-release.apk"
                   : i === 1
-                  ? "https://github.com/akhilboss118-an/3d-runner-game/releases/download/v1.1.0/Zombie%20Escape%201.0.0.exe"
+                  ? "https://github.com/akhilboss118-an/3d-runner-game/releases/download/v1.1.0/Zombie.Escape.1.0.0.exe"
                   : "https://3d-runner-opal.vercel.app/"
               }
               target="_blank"
